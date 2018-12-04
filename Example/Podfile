@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'CSSDeviceInfoTool_Example' do
+  pod 'CSSDeviceInfoTool', :path => '../'
+
+  target 'CSSDeviceInfoTool_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
