@@ -7,4 +7,76 @@
    <FileRef
       location = "group:Pods/Pods.xcodeproj">
    </FileRef>
+   <Group
+      location = "group:Pods"
+      name = "Targets Support Files">
+      <Group
+         location = "group:Pods/Target Support Files/Pods-CSSDeviceInfoTool_Example"
+         name = "Pods-CSSDeviceInfoTool_Example">
+         <FileRef
+            location = "group:Pods/Target Support Files/Pods-CSSDeviceInfoTool_Example/Info.plist">
+         </FileRef>
+         <FileRef
+            location = "group:Pods/Target Support Files/Pods-CSSDeviceInfoTool_Example/Pods-CSSDeviceInfoTool_Example.modulemap">
+         </FileRef>
+         <FileRef
+            location = "group:Pods/Target Support Files/Pods-CSSDeviceInfoTool_Example/Pods-CSSDeviceInfoTool_Example-acknowledgements.markdown">
+         </FileRef>
+         <FileRef
+            location = "group:Pods/Target Support Files/Pods-CSSDeviceInfoTool_Example/Pods-CSSDeviceInfoTool_Example-acknowledgements.plist">
+         </FileRef>
+         <FileRef
+            location = "group:Pods/Target Support Files/Pods-CSSDeviceInfoTool_Example/Pods-CSSDeviceInfoTool_Example-dummy.m">
+         </FileRef>
+         <FileRef
+            location = "group:Pods/Target Support Files/Pods-CSSDeviceInfoTool_Example/Pods-CSSDeviceInfoTool_Example-frameworks.sh">
+         </FileRef>
+         <FileRef
+            location = "group:Pods/Target Support Files/Pods-CSSDeviceInfoTool_Example/Pods-CSSDeviceInfoTool_Example-resources.sh">
+         </FileRef>
+         <FileRef
+            location = "group:Pods/Target Support Files/Pods-CSSDeviceInfoTool_Example/Pods-CSSDeviceInfoTool_Example-umbrella.h">
+         </FileRef>
+         <FileRef
+            location = "group:Pods/Target Support Files/Pods-CSSDeviceInfoTool_Example/Pods-CSSDeviceInfoTool_Example.debug.xcconfig">
+         </FileRef>
+         <FileRef
+            location = "group:Pods/Target Support Files/Pods-CSSDeviceInfoTool_Example/Pods-CSSDeviceInfoTool_Example.release.xcconfig">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:Pods/Target Support Files/Pods-CSSDeviceInfoTool_Tests"
+         name = "Pods-CSSDeviceInfoTool_Tests">
+         <FileRef
+            location = "group:Pods/Target Support Files/Pods-CSSDeviceInfoTool_Tests/Info.plist">
+         </FileRef>
+         <FileRef
+            location = "group:Pods/Target Support Files/Pods-CSSDeviceInfoTool_Tests/Pods-CSSDeviceInfoTool_Tests.modulemap">
+         </FileRef>
+         <FileRef
+            location = "group:Pods/Target Support Files/Pods-CSSDeviceInfoTool_Tests/Pods-CSSDeviceInfoTool_Tests-acknowledgements.markdown">
+         </FileRef>
+         <FileRef
+            location = "group:Pods/Target Support Files/Pods-CSSDeviceInfoTool_Tests/Pods-CSSDeviceInfoTool_Tests-acknowledgements.plist">
+         </FileRef>
+         <FileRef
+            location = "group:Pods/Target Support Files/Pods-CSSDeviceInfoTool_Tests/Pods-CSSDeviceInfoTool_Tests-dummy.m">
+         </FileRef>
+         <FileRef
+            location = "group:Pods/Target Support Files/Pods-CSSDeviceInfoTool_Tests/Pods-CSSDeviceInfoTool_Tests-frameworks.sh">
+         </FileRef>
+         <FileRef
+            location = "group:Pods/Target Support Files/Pods-CSSDeviceInfoTool_Tests/Pods-CSSDeviceInfoTool_Tests-resources.sh">
+         </FileRef>
+         <FileRef
+            location = "group:Pods/Target Support Files/Pods-CSSDeviceInfoTool_Tests/Pods-CSSDeviceInfoTool_Tests-umbrella.h">
+         </FileRef>
+         <FileRef
+            location = "group:Pods/Target Support Files/Pods-CSSDeviceInfoTool_Tests/Pods-CSSDeviceInfoTool_Tests.debug.xcconfig">
+         </FileRef>
+         <FileRef
+            location = "group:Pods/Target Support Files/Pods-CSSDeviceInfoTool_Tests/Pods-CSSDeviceInfoTool_Tests.release.xcconfig">
+         </FileRef>
+      </Group>
+   </Group>
 </Workspace>

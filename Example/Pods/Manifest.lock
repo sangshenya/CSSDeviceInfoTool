@@ -1,15 +1,30 @@
 PODS:
-  - CSSDeviceInfoTool (0.1.0)
+  - CSSDeviceInfoTool (0.1.2):
+    - CSSKit
+  - CSSKit (0.1.6):
+    - CSSKit/Foundation (= 0.1.6)
+    - CSSKit/Macros (= 0.1.6)
+    - CSSKit/Quartz (= 0.1.6)
+    - CSSKit/UI (= 0.1.6)
+  - CSSKit/Foundation (0.1.6)
+  - CSSKit/Macros (0.1.6)
+  - CSSKit/Quartz (0.1.6)
+  - CSSKit/UI (0.1.6)
 
 DEPENDENCIES:
   - CSSDeviceInfoTool (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - CSSKit
 
 EXTERNAL SOURCES:
   CSSDeviceInfoTool:
     :path: "../"
 
 SPEC CHECKSUMS:
-  CSSDeviceInfoTool: d6e35d6c5a099d5926411f4db55d4949b858251d
+  CSSDeviceInfoTool: 36a67e608cdc496a0f0843d94955761d0eb36cc1
+  CSSKit: f0505458713e619f17e56721483880733fe60aa5
 
 PODFILE CHECKSUM: abaae5fc8a7702d5bd087302d40dc049b12a63d9
 

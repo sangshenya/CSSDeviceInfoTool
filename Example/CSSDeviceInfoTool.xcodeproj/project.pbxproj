@@ -247,6 +247,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = sangshenya;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = XV36ECQQZA;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -304,12 +307,14 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-CSSDeviceInfoTool_Example/Pods-CSSDeviceInfoTool_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/CSSDeviceInfoTool/CSSDeviceInfoTool.framework",
+				"${BUILT_PRODUCTS_DIR}/CSSKit/CSSKit.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CSSDeviceInfoTool.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CSSKit.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -497,6 +502,7 @@
 			baseConfigurationReference = 986F2A9832980E5E979AFD83 /* Pods-CSSDeviceInfoTool_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = XV36ECQQZA;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CSSDeviceInfoTool/CSSDeviceInfoTool-Prefix.pch";
 				INFOPLIST_FILE = "CSSDeviceInfoTool/CSSDeviceInfoTool-Info.plist";
@@ -512,6 +518,7 @@
 			baseConfigurationReference = E9117BC7EB7C892622BF2BF7 /* Pods-CSSDeviceInfoTool_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = XV36ECQQZA;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CSSDeviceInfoTool/CSSDeviceInfoTool-Prefix.pch";
 				INFOPLIST_FILE = "CSSDeviceInfoTool/CSSDeviceInfoTool-Info.plist";

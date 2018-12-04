@@ -10,6 +10,9 @@
 #endif
 #endif
 
+#import "CSSDeviceInfoTool.h"
+#import "CSSEncryptAES.h"
+#import "CSSEncryptRSA.h"
 
 FOUNDATION_EXPORT double CSSDeviceInfoToolVersionNumber;
 FOUNDATION_EXPORT const unsigned char CSSDeviceInfoToolVersionString[];
