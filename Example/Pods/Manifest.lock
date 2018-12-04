@@ -1,0 +1,16 @@
+PODS:
+  - CSSDeviceInfoTool (0.1.0)
+
+DEPENDENCIES:
+  - CSSDeviceInfoTool (from `../`)
+
+EXTERNAL SOURCES:
+  CSSDeviceInfoTool:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CSSDeviceInfoTool: d6e35d6c5a099d5926411f4db55d4949b858251d
+
+PODFILE CHECKSUM: abaae5fc8a7702d5bd087302d40dc049b12a63d9
+
+COCOAPODS: 1.5.3
