@@ -714,6 +714,37 @@ int KCSSTDeviceCPUSubType(void) {
     return [addresses count] ? addresses : nil;
 }
 
+/// 越狱
++ (BOOL)isPirated {
+#if TARGET_OS_SIMULATOR
+    return YES;
+#endif
+    
+    if (getgid() <= 10) return YES; // process ID shouldn't be root
+    
+    if ([[[NSBundle mainBundle] infoDictionary] objectForKey:@"SignerIdentity"]) {
+        return YES;
+    }
+    
+    if (![self __fileExistInMainBundle:@"_CodeSignature"]) {
+        return YES;
+    }
+    
+    if (![self __fileExistInMainBundle:@"SC_Info"]) {
+        return YES;
+    }
+    
+    //if someone really want to crack your app, this method is useless..
+    //you may change this method's name, encrypt the code and do more check..
+    return NO;
+}
+
++ (BOOL)__fileExistInMainBundle:(NSString *)name {
+    NSString *bundlePath = [[NSBundle mainBundle] bundlePath];
+    NSString *path = [NSString stringWithFormat:@"%@/%@", bundlePath, name];
+    return [[NSFileManager defaultManager] fileExistsAtPath:path];
+}
+
 + (BOOL)isBeingDebugged {
     size_t size = sizeof(struct kinfo_proc);
     struct kinfo_proc info;

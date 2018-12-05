@@ -97,6 +97,8 @@ int KCSSTDeviceCPUSubType(void);
 
 + (BOOL)isBeingDebugged;
 
++ (BOOL)isPirated;
+
 + (NSString *)wifiBSSID;
 
 + (NSString *)wifiSSID;
