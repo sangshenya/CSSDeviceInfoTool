@@ -802,7 +802,7 @@ int KCSSTDeviceCPUSubType(void) {
             ];
 }
 #pragma mark - 磁盘总内存
-- (int64_t)getTotalDiskSpace {
++ (int64_t)getTotalDiskSpace {
     NSError *error = nil;
     NSDictionary *attrs = [[NSFileManager defaultManager] attributesOfFileSystemForPath:NSHomeDirectory() error:&error];
     if (error) return -1;
@@ -812,7 +812,7 @@ int KCSSTDeviceCPUSubType(void) {
 }
 
 #pragma mark - 磁盘使用空间
-- (int64_t)getUsedDiskSpace {
++ (int64_t)getUsedDiskSpace {
     int64_t totalDisk = [self getTotalDiskSpace];
     int64_t freeDisk = [self getFreeDiskSpace];
     if (totalDisk < 0 || freeDisk < 0) return -1;
@@ -822,7 +822,7 @@ int KCSSTDeviceCPUSubType(void) {
 }
 #pragma mark - 磁盘空闲空间
 
-- (int64_t)getFreeDiskSpace {
++ (int64_t)getFreeDiskSpace {
     NSError *error = nil;
     NSDictionary *attrs = [[NSFileManager defaultManager] attributesOfFileSystemForPath:NSHomeDirectory() error:&error];
     if (error) return -1;
