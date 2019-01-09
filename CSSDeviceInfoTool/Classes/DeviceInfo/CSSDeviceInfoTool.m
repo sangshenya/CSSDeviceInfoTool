@@ -368,7 +368,7 @@ NSString * KCSSTAPPVersion(void) {
     return [[NSBundle mainBundle] objectForInfoDictionaryKey:@"CFBundleShortVersionString"];
 }
 
-NSString * KMCTAPPBundleName(void) {
+NSString * KCSSTAPPBundleName(void) {
     return [[NSBundle mainBundle] objectForInfoDictionaryKey:@"CFBundleName"];
 }
 
